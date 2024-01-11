@@ -1,0 +1,87 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #e5d7d7; /* Red color */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #ff1900; /* Red color */
+}
+
+p {
+    line-height: 1.5;
+}
+
+address {
+    font-style: normal;
+}
+
+#work-experience h3,
+#projects h2,
+#technical-skills h2 {
+    color: #e31616; /* Red color */
+    border-bottom: 2px solid #e74c3c; /* Red color */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+p{
+  color:white;
+}
+h3{
+  color:white;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+#projects li {
+    background-color: #e74c3c; /* Red color */
+    color: #000; /* Black color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#projects li:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+nav {
+    background-color: #f50000;
+    color: #ff0000;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff5f5;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
